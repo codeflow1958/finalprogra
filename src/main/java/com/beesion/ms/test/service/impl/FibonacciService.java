@@ -51,8 +51,7 @@ public class FibonacciService {
         fibonacciSequence.add(a);
         fibonacciSequence.add(b);
 
-        // Generar los elementos restantes hasta alcanzar 'n' elementos
-        // Ya tenemos 2 elementos, así que necesitamos generar n-2 más.
+
         for (int i = 2; i < n; i++) {
             long next = a + b;
             fibonacciSequence.add(next);
